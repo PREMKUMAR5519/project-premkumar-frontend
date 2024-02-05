@@ -1,0 +1,39 @@
+.foodplan_maincontainer{
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    border-radius: 5px;
+    padding: 1%;
+}
+.foodplan_maincontainer h1{
+   color: gray;
+   font-size: 25px;
+   font-weight: 400;
+   letter-spacing: 0.5px;
+
+}
+.foodplan_maincontainer1{
+    height: 95%;
+    width: 100%;
+    background-color:rgb(255, 255, 255);
+    overflow: scroll;
+}
+.foodplan_maincontainer1img{
+    height: 40%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+.foodplanimgsource{
+    height: 100%;
+    border-radius: 10px;
+}
+.foodplan_maincontainer2{
+
+}
+.timeatplan{
+    font-weight: 500;
+}
+.imgsourcehabbit{
+    height: 70%;
+}

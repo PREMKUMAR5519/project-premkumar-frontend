@@ -1,0 +1,9 @@
+.verifierdiv{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(to top, #50b3b4, #71baff, #71baff, #71baff);
+
+}

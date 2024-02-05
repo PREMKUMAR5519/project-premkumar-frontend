@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Foldit:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=MuseoModerno:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,300&family=PT+Sans+Narrow&family=Rubik:wght@300&display=swap');
+
+
+.container_div{
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: auto;
+
+}
+.butoon_for_prop{
+    background-color: #616eff;
+
+}
+.container_main{
+    width: 100vw;
+}
+.quotes_1_1{
+font-size: 50px;
+}
+.quotes1{
+    /* font-family: 'Instrument Sans', sans-serif; */
+    font-family: 'Foldit', sans-serif;
+    opacity: 90%;
+  letter-spacing: 3px;
+  font-size: 60px;
+  font-size: xx-large;
+  padding-top: 8%;
+  animation: slideIn 0.5s ease-out; /* Adjust the duration and timing function as needed */
+  padding-left: 40px;
+  display: flex;
+  margin-top: 5px;
+  flex-direction: column;
+  width: fit-content;
+}
+.movable{
+    padding-left: 20%;
+    padding-right: 10px;
+    background: linear-gradient(to right, rgb(0, 255, 94)20%,rgb(46, 60, 218)); /* Replace with your desired gradient colors */
+    -webkit-background-clip: text;
+    width: fit-content;
+    font-size: 50px;
+    color: transparent;
+}
+.movable2{
+    font-size: 50px;
+}
+.quotes2{
+    font-family: 'Instrument Sans', sans-serif;
+    color: white;
+  font-size: 15px;
+  animation: slideIn 1.3s ease-out; /* Adjust the duration and timing function as needed */
+  margin-top: 19%;
+  max-height: fit-content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.challenge{
+    opacity: 60%;
+}
+.get_start{
+    width: 100%;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 5px -10px 30px 20px rgb(0, 0, 0);
+}
+
+body{
+    background-color: black;
+    overflow-x: hidden; /* Hide scrollbars */
+}
+h5{
+    color: white;
+    text-align: center;
+    font-family: 'Instrument Sans', sans-serif;
+
+}
+.changing{
+    display: flex;
+    flex-direction: row;
+}
+.header{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.buttons_ui{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 10px;
+}
+.signin_button{
+    margin-right:50px ;
+    margin-left: 5px;
+}
+#headers_about{
+    margin-right:25px ;
+}
+.logo{
+    max-width: 40px;
+}
+.logoname{
+    width: fit-content;
+    font-family: 'MuseoModerno', sans-serif;
+    letter-spacing: 4px;
+    font-size: 24px;
+    padding-left: 5px;
+    font-weight: 700;
+    text-shadow: rgba(195, 203, 39, 0.468) 1px 0.5px;
+    color: rgb(67, 67, 67);
+
+}
+.logo_field{
+    display: flex;
+    align-items: center;
+}
+.headers_about{
+    font-size: 15px;
+    padding-right: 40px;
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+}
+.headers_about:hover{
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    font-weight: 600;
+
+}
+.getstart{
+    position: absolute;
+    animation: slideIn 0.8s ease-out; /* Adjust the duration and timing function as needed */
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.button_getstart{
+    opacity: 80%;
+    align-items: center;
+    appearance: none;
+    background-color: #ffffff;
+    border-radius: 4px;
+    border-width: 0;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+    box-sizing: border-box;
+    color: #616eff;
+    cursor: pointer;
+    display: inline-flex;
+    font-family: "JetBrains Mono",monospace;
+    height: 48px;
+    justify-content: center;
+    line-height: 1;
+    list-style: none;
+    overflow: hidden;
+    padding-left: 16px;
+    padding-right: 16px;
+    position: relative;
+    text-align: left;
+    text-decoration: none;
+    transition: box-shadow .15s,transform .15s;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
+    will-change: box-shadow,transform;
+    border-radius: 30px;
+    font-size: 22px;
+    font-weight: bolder;
+  }
+  
+  .button_getstart:focus {
+    opacity: 100%;
+    background-color: white;
+    box-shadow: #D6D6E7 0 0 0 1.5px inset, rgba(45, 35, 66, 0.4) 0 2px 4px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  }
+  
+  .button_getstart:hover {
+    opacity: 100%;
+    background-color: white;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+    transform: translateY(-2px);
+  }
+  
+  .button_getstart:active {
+    opacity: 100%;
+    background-color: rgb(204, 204, 204);
+    box-shadow: #D6D6E7 0 3px 7px inset;
+    transform: translateY(2px);
+  }
+
+.by_fitsible{
+    color: rgb(46, 46, 46);
+}
+.main_quotes{
+  
+    
+}
+
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-3%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animated-text {
+    animation: slideIn 0.5s ease-out; /* Adjust the duration and timing function as needed */
+}
+
+@media (max-width: 768px) {
+    .container_div {
+      height: 200px; /* Adjust the height for smaller screens */
+    }
+    .quotes2{
+        padding: 0;
+        font-size: 10px;
+    }
+    .quotes1{
+        font-size: 15px;
+        transform: translateY(-10%);
+    }
+    h5{
+        color: transparent;
+    }
+}
+@media (max-width: 475px) {
+    .quotes2{
+        padding: 0;
+        font-size: 5px;
+        transform: translateY(40px);
+    }
+    .quotes1{
+        font-size: 10px;
+        transform: translateY(-10%);
+    }
+}

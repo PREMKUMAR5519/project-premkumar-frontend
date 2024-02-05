@@ -1,0 +1,13 @@
+
+body {
+  margin: 0;
+  display: flex;
+  min-height: 100vh;
+  min-width: 344px;
+  background-color: rgb(172, 249, 255);
+
+}
+*{
+  margin: 0;
+  padding: 0;
+}

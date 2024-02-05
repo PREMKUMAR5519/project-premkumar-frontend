@@ -1,0 +1,843 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+.existinguser_main_div{
+    height: 100vh;
+    width: 100vw;
+    min-width: 442px;
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    background-image: linear-gradient(to bottom, rgb(133, 224, 255)80%,rgb(196, 196, 196));
+}
+.existinguser_main_divmain{
+    height: 100vh;
+    width: 100vw;
+    background-image: linear-gradient(to bottom, rgb(255, 255, 255)80%,rgb(255, 255, 255));
+}
+.existinguser_main_div_1{
+    width: 4%;
+    height: 99%;
+    transition: width 0.3s ease;
+}
+.existinguser_main_div_1:hover{
+    width: 9%;
+    height: 99%;
+}
+.existinguser_main_div_2{
+    width: 96%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+
+}
+.existinguser_main_div_2_1{
+    height: 8%;
+    width: 100%;
+    background-color: #e8feff;
+    box-shadow: 0px 2px  5px #35434b;
+}
+.existinguser_main_div_2_2{
+    height: 90%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+
+}
+.existinguser_main_div_2_21{
+    width:75%;
+
+}
+.existinguser_main_div_2_22{
+    background-image: linear-gradient(to top,rgb(92, 241, 255),rgb(126, 207, 201)40%);
+    backdrop-filter: blur(10px);
+    width: 24%;
+    height: 99%;
+    display: flex;
+    border: 1px solid rgb(255, 255, 255);
+    align-items: center;
+    flex-direction: column;
+    margin-top: 0.5%;
+    padding: 10px;
+    border-radius: 10px;
+}
+.exercise_main_container{
+    height: 100%;
+    width: 100%;
+}
+.exercise_main_container_1{
+    height: 20%;
+    width: 100%;
+}
+.exercise_main_container_2{
+    height: 21%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    border-radius: 5px;
+}
+
+.exercise_main_container_21{
+   padding-left: 10px;
+   font-size: larger;
+   color: rgb(218, 218, 218);
+   background-color: rgb(88, 88, 88);
+   border-top-right-radius:10px ;
+   border-top-left-radius:10px ;
+
+
+   font-weight: 600;
+}
+.exercise_main_container_22{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(203, 255, 216);
+
+}
+.exercise_main_container_3{
+    height: 75%;
+    width: 100%;
+    padding: 3%;
+    border-radius: 5px;
+    background-color: rgb(203, 255, 216);
+}
+.exercise_main_container_11{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;
+    margin-top: 10px;
+    background-color: rgb(107, 218, 255);
+
+}
+.exercise_main_bottom_container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 80%;
+    background-color: rgb(187, 255, 243);
+    backdrop-filter: blur(10px);
+    padding: 10px;
+    border-radius: 20px;
+
+
+}
+.exercise_main_bottom_container_1{
+    width: 70%;
+    height: 100%;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255)
+}
+.exercise_main_bottom_container_2{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(179, 255, 255);
+    border-radius: 7px;
+}
+.exercise_main_bottom_container_1_1{
+    width: 100%;
+    height: 5%;
+    background-color: rgb(85, 202, 196);
+    padding-left: 10px;
+    color: #434343;
+    font-weight: 500;
+    border-top-right-radius: 7px;
+    border-top-left-radius: 7px;
+
+}
+.exercise_main_bottom_container_1_2{
+    height: 95%;
+    width: 100%;
+    background-color: azure;
+}
+.exercise_main_bottom_container_21{
+    width: 90%;
+    height: 50%;
+    display: flex;
+    padding: 10px;
+    justify-content: center;
+    align-items: left;
+    flex-direction: column;
+    border-radius: 10px;
+
+}
+.exercise_main_bottom_container_21 p{
+    font-weight: 525;
+    font-size: 18px;
+    padding-left: 4%;
+}
+.exercise_main_bottom_container_211{
+    height: 98%;
+    width: 98%;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding: 10px;
+    background-image: linear-gradient(to right,rgb(160, 229, 215),rgb(185, 255, 185));
+    border-radius: 10px;
+    box-shadow: 0 5px 5px rgb(115, 115, 115);
+    display: flex;
+    justify-content: start;
+    flex-direction: column;
+    align-items: center;
+
+}
+::-webkit-scrollbar{
+    width: 7px;
+}
+::-webkit-scrollbar-thumb{
+    background:linear-gradient(rgb(255, 186, 186),rgb(124, 162, 156));
+    border-radius: 6px;
+}
+.exercise_main_bottom_container_22{
+    border-radius: 6px;
+    padding: 5px;
+    width: 100%;
+    height: 50%;
+}
+.exercise_main_bottom_container_22_1{
+    background:linear-gradient(rgb(228, 196, 196),rgb(124, 162, 156));
+    box-shadow: 0px 2px  5px #35434b;
+    height: 98%;
+    width: 98%;
+    padding: 6px;
+    border-radius: 15px;
+
+}
+
+.exercise_main_container_11_1{
+    height: 50%;
+    width: 100%;
+    margin-left: 30px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    
+}
+.exercise_main_container_11_2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: end;
+    flex-direction: row;
+    border-radius: 10px;
+    position: relative;
+}
+.exercise_quotes{
+    margin: 0;
+    color: rgb(61, 61, 61);
+    font-size: 13px;
+    padding-left: 50px;
+}
+.exercise_username{
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    text-shadow: #aea1ff 1px 1px;
+    margin: 0;
+    margin-top: 5px;
+    padding: 0;
+    text-transform: uppercase;
+}
+.img_exercise1{
+    height: auto;
+    opacity: 80%;
+    width: 30%;
+}
+.img_exercise2{
+    width: 15%;
+    opacity: 80%;
+}
+.dailytaskmain{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    width: 100%;
+}
+.existinguser_main_div_2_22_21{
+    height: 100%;
+    width: 100%;
+}
+.dailytask_main_container{
+    height: 80%;
+    width: 49%;
+    margin: 5px;
+    position: relative;
+    box-shadow: 0px 2px  10px  rgba(255, 255, 255, .15);
+    border-radius: 10px;
+    color: rgb(255, 255, 255);
+    background-color: rgb(103, 183, 111);
+    backdrop-filter: blur(10px);
+     cursor: pointer;
+
+}
+.dailytask_main_containers{
+    width: 60%;
+    height: 80%;
+    margin: 5px;
+    position: relative;
+    box-shadow: 0px 2px  10px  rgba(255, 255, 255, .15);
+    border-radius: 10px;
+    color: azure;
+    background-color: rgb(107, 78, 137);  
+    backdrop-filter: blur(10px);
+     cursor: pointer;
+}
+.dailytask_main_div{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+.dailytask_main_div2{
+    height: 50%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.dailytask_main_container:active{
+     background-color: rgb(163, 255, 204);
+
+
+}
+.dailytask_main_container.clicked{
+    background-color: rgba(83, 83, 83, 0.574);
+    
+
+}
+.dailytask_main_container.clicked .dailytask_main_container_1{
+    opacity: 10%;
+    position: absolute;
+}
+.dailytask_main_containers:active{
+    background-color: rgb(163, 255, 204);
+
+}
+.dailytask_main_containers.clicked{
+    background-color: rgba(71, 117, 75, 0.629);
+   
+
+}
+.dailytask_main_containers.clicked .dailytask_main_container_1{
+   opacity: 50%;
+   position: absolute;
+}
+.dailytask_completed{
+    color: rgb(255, 255, 255);
+    width: 100%;
+    height: 100%;
+    font-weight: 600;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25px;
+
+}
+.dailytask_main_container_1{
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+
+}
+.count{
+    margin: -3px;
+    font-size: 20px;
+    margin-left:10px ;
+    font-weight: 500;
+    color: rgb(229, 229, 229);
+}
+.steps{
+    margin:  -6px;
+    font-size: 13px;
+    margin-left:14px ;
+    color: rgb(255, 255, 255);
+
+}
+.stepsIcon{
+    font-size: 25px;
+    padding: 8px;
+    background-color: rgb(255, 153, 0);
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+}
+.foodplan_short_main{
+    width: 250px;
+    height: 70px;
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin: 5px;
+    display: flex;
+    align-items: left;
+    flex-direction: row;
+}
+.foodplan_short_main1{
+    width: 30%;
+    height: 100%;
+}
+.foodplan_short_main1 img{
+    width: 98%;
+    height: 100%;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+
+}
+.foodplan_short_main2{
+    width: 60%;
+    height: 100%;
+    padding-left: 10px;
+    font-size: 17px;
+    font-weight: 500;
+    color: gray;
+}
+.foodplan_short_main2 p{
+    font-size: 11px;
+    color: rgb(81, 81, 81);
+}
+.existinguser_main_div_2_22_1{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(183, 238, 255);
+    border-radius: 10px;
+    width: 100%;
+    height: 40%;
+
+}
+.existinguser_main_div_2_22_1 h3{
+    width: 100%;
+    text-align: left;
+    font-size: 20px;
+    margin-left: 10px;
+
+}
+.existinguser_main_div_2_22_1 p{
+   width: 100%;
+   text-align: center;
+   margin-top: 40px;
+}
+.pie_chart{
+ width: 40%;
+ height: 40%;
+}
+.existinguser_main_div_2_22_2{
+    height: 30%;
+    width: 100%;
+}
+.existinguser_main_div_2_22_22{
+    height: 80%;
+    width: 100%;
+    border-radius: 10px;
+    background-size: cover;
+    background-color:#aea1ff;
+    text-align: center;
+    
+}
+.progress{
+    width: 80%;
+    height: 5%;
+    margin-left: 10%;
+}
+.button_div_exercise1{
+    width: 90%;
+    display: flex;
+    justify-content: right;
+}
+.button_div_exercise1 button{
+    background-color: rgb(242, 118, 9);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    font-weight: 600;
+    width: 10%;
+    padding: 2px;
+
+
+}
+.seemorebutton{
+    border: none;
+    padding: 2px;
+    font-size: 14px;
+    font-weight: 500;
+    border-radius: 5px;
+    background:none;
+    color: rgb(15, 149, 5);
+}
+.personalinfo_main{
+    position: fixed;
+    top: 0;
+    left: 0;
+    background-color: rgba(0,0,0,0.4);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.personalinfo_main0{
+    background-color: #e4e0ff;
+    border-radius: 7px;
+    width: 40%;
+    height: 70%;
+    margin-top:10px ;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+
+
+}
+.personalinfo_main1{
+    border-radius: 7px;
+    width: 80%;
+    height: 80%;
+    padding-left: 5%;
+    margin-top:10px ;
+
+}
+.personalinfo_main0_button{
+    width: 100%;
+    height: 5%;
+    display: flex;
+    justify-content: right;
+}
+.personalinfo_main0 button{
+    background: none;
+    height: 40px;
+   border: none;
+   color: gray;
+   font-size: 35px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-right: 20px;
+}
+.personalinfo_main0 button:hover{
+    color: rgb(250, 118, 118);
+    font-size: 38px;
+
+}
+.personalinfo_main0 button:active{
+    color: rgb(122, 122, 122);
+    font-size: 33px;
+    padding-right: 2px;
+
+}
+.personalinfo_main1 h4{
+    color: #434343;
+    margin-left: 2%;
+}
+.personalinfo_main1_1{
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+.personalinfo_main1_1 p{
+    font-size: 15px;
+    margin: 0;
+    
+}
+.personalinfo_main1_1 h6{
+    padding: 10px;
+    font-size: 20px;
+    font-weight: 100;
+    border: solid 0.4px gray;
+    height: 45px;
+    margin: 0;
+    width: 55%;
+    border-radius: 5px;
+}
+.gender{
+    display: flex;
+    justify-content: left;
+    flex-direction: row;
+    margin-top: 10px;
+    height: 20%;
+    width: 60%;
+}
+.male{
+    width: 100%;
+    height: 50%;
+    border-radius: 5px;
+    margin-right: 10px;
+    font-size: 20px;
+    color: #434343;
+    border: 1px solid rgb(179, 179, 179);
+}
+.male.true{
+    color: rgb(255, 115, 0);
+    border: 2px solid rgb(255, 140, 0);
+}
+@media (max-width: 1200px) {
+    .foodplan_short_main{
+        height: 40px;
+        width: 180px;
+
+        
+    }
+    .foodplan_short_main2{
+        font-size: 12px;
+    }
+    .foodplan_short_main2 p{
+        font-size: 8px;
+    }
+}
+@media (max-width: 1150px) {
+
+    .dailytask_main_container{
+         width: 40%;
+         height: 70%;
+    }
+    .dailytask_main_containers{
+        width: 40%;
+        height: 70%;
+   }
+   .dailytask_completed{
+    font-size: 15px;
+   }
+   .existinguser_main_div_2_22_1{
+    width: 100%;
+    height: 30%;
+   }
+   .existinguser_main_div_2_22_1 h3{
+    font-size: 15px;
+    margin-top: 25px;
+   }
+   .stepsIcon{
+    font-size: 25px;
+    padding: 0;
+    background: none;
+   }
+   .count{
+    font-size: 10px;
+    margin: 0;
+   }
+   .steps{
+    font-size: 8px;
+    margin: 0;
+   }
+   .foodplan_short_main{
+    height: 30px;
+    width: 160px;
+}
+.fruits_nutretion{
+    display: none;
+}
+}
+@media (max-width: 1010px) {
+
+    .dailytask_main_container{
+         width: 80%;
+         height: 40%;
+         padding: 0;
+         justify-content: center;
+         align-items: center;
+
+    }
+    .dailytask_main_container .clicked{
+        width: 80%;
+        height: 40%;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+
+   }
+    .dailytask_main_container_1{
+        justify-content: center;
+        align-items: center;
+    }
+    .dailytask_main_containers{
+        width: 80%;
+        height: 40%;
+        padding: 0;
+   }
+   .dailytask_completed{
+    font-size: 10px;
+   }
+   .existinguser_main_div_2_22_1{
+    width: 100%;
+    height: 30%;
+   }
+   .existinguser_main_div_2_22_1 h3{
+    font-size: 15px;
+    margin-top: 25px;
+   }
+   .stepsIcon{
+    font-size: 20px;
+    padding: 0;
+    background: none;
+   }
+   .count{
+    font-size: 8px;
+    margin: 0;
+   }
+   .steps{
+    font-size: 8px;
+    margin: 0;
+   }
+   .dailytask_main_div{
+    flex-direction: column;
+   }
+   .dailytask_main_container_1{
+    padding: 0;
+   }
+   .dailytask_main_div2{
+    justify-content: left;
+    margin-top: 10px;
+   }
+   .dailytask_main_containers .clicked{
+    width: 40%;
+   }
+   .dailytask_main_container .clicked{
+     height: 50;
+   }
+
+}
+
+@media (max-width: 870px) {
+
+    .dailytask_main_container{
+        width: 80%;
+        height: 40%;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+
+   }
+    .dailytask_main_containers{
+        width: 80%;
+        height: 40%;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+   }
+   .dailytask_completed{
+    font-size: 10px;
+   }
+   .existinguser_main_div_2_22_1{
+    width: 100%;
+    height: 30%;
+   }
+   .existinguser_main_div_2_22_1 h3{
+    font-size: 15px;
+    margin-top: 25px;
+   }
+   .stepsIcon{
+    font-size: 20px;
+    padding: 0;
+    background: none;
+   }
+   .count{
+    display: none;
+    margin: 0;
+   }
+   .steps{
+    font-size: 8px;
+    margin: 0;
+   }
+   .dailytask_main_div{
+    flex-direction: column;
+   }
+   .dailytask_main_container_1{
+    padding: 0;
+   }
+   .dailytask_main_div2{
+    justify-content: left;
+    margin-top: 10px;
+   }
+   .dailytask_main_containers .clicked{
+    width: 40%;
+   }
+   .dailytask_main_container .clicked{
+     height: 50;
+   }
+   .existinguser_main_div_2_22_22{
+    height: 50%;
+   }
+   .existinguser_main_div_2_22_22 h5{
+    font-size: 15px;
+   }
+   .existinguser_main_div_2_22_22 p{
+    font-size: 10px;
+   }
+   .progress{
+    width: 70%;
+   }
+   .existinguser_main_div_2_22_22 h4{
+    font-size: 10px;
+   }
+   .stepsIcon{
+    font-size: 10px;
+   }
+   .dailytask_main_container_1{
+    display: flex; 
+    padding-top: 4px;
+    justify-content: center;
+   }
+   .foodplan_short_main{
+    height: 30px;
+    width: 120px;
+    border-radius: 2px;
+}
+.foodplan_short_main1 img{
+    border-radius: 2px;
+}
+
+}
+
+
+
+@media (max-width: 700px) {
+    .dailytask_main_container{
+         width: 100%;
+         height: 40%;
+         padding: 0;
+
+    }
+    .dailytask_main_containers{
+        width: 1500%;
+        height: 40%;
+        padding: 0;
+   }
+   .dailytask_main_containers .clicked{
+    width: 100%;
+    height: 40%;
+    margin: 0;
+   }
+   .dailytask_main_container .clicked{
+    width: 100%;
+    height: 40%;
+   }
+   .existinguser_main_div_2_22_22{
+    height: 90%;
+    width: 100%;
+   }
+
+}
+@media (max-width: 580px) {
+
+    .exercise_main_bottom_container_22{
+      display: none;
+    }
+    .exercise_main_bottom_container_2{
+        display: none;
+
+    }
+    .exercise_main_bottom_container{
+        height: 75%;
+        width: 100%;
+        background-color: azure;
+    }
+
+    .exercise_main_bottom_container_1{
+        width: 100%;
+    }
+
+  }

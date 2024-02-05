@@ -1,0 +1,135 @@
+.aboutmain_container{
+    width: 100vw;
+    color:rgb(31, 31, 31);
+    padding: 20px;
+    padding-top: 70px; 
+    text-align: center;
+    background: linear-gradient(45deg, #ffffff,#d5fff4,rgb(255, 255, 255) );
+}
+.aboutmain_container1{
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+.aboutone{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 5px;
+ 
+}
+.aboutoneone{
+    background-color: rgba(218, 101, 101, 0.932);
+    width: 40%;
+    height: 100%;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.aboutonetwo{
+    background-color: rgba(218, 199, 101, 0.932);
+    width: 40%;
+    height: 100%;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.aboutonethree{
+    background-color: rgba(101, 218, 148, 0.811);
+    width: 40%;
+    height: 100%;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}.aboutonefour{
+    background-color: rgba(169, 218, 101, 0.932);
+    width: 40%;
+    height: 100%;
+    margin: 5px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.icons{
+background-color: #6d6d6d;
+font-size: 70px;
+height: 70%;
+width: 24%;
+color: #ffffff;
+padding: 15px;
+margin: 10px;
+border-radius: 50px;
+
+}
+.aboutquotes{
+    text-align: left;
+}
+.aboutquotes p{
+margin: 0;
+font-size: 11px;
+color: white;
+}
+.aboutquotes h4{
+    margin: 0;
+    font-size: 18px;
+    color: rgb(233, 233, 233);
+}
+@media (max-width: 1150px) {
+    .icons{
+        height: 50px;
+        width: 50px;
+        border-radius: 50px;
+    }
+}
+@media (max-width: 950px) {
+    .icons{
+        height: 25px;
+        width: 25px;
+        border-radius: 25px;
+    }
+    .aboutquotes h4{
+        font-size: 15px;
+    }
+    .aboutquotes p{
+        display:none;
+    }
+    .aboutoneone{
+        height: 60%;
+    }
+    .aboutonetwo{
+        height: 60%;
+    }
+    .aboutonethree{
+        height: 60%;
+    }
+    .aboutonefour{
+        height: 60%;
+    }
+    .aboutmain_container{
+        padding: 0;
+    }
+    .aboutmain_container1{
+        padding: 0;
+        margin: 0;
+        justify-content: start;
+    }
+}
+@media (max-width: 950px) {
+    .icons{
+        height: 25px;
+        width: 25px;
+        border-radius: 25px;
+    }
+    .aboutquotes h4{
+        font-size: 10px;
+    }
+
+}

@@ -1,0 +1,191 @@
+.card_main{
+    width: 98%;
+    height: 98%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 7px;
+    background-color: rgb(255, 255, 255);
+
+    
+
+}
+.card{
+    width: 100%;
+    height: 22%;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    flex-direction: row;
+    margin: 5px;
+    border-top-right-radius:15px;
+    border-radius: 7px;
+    border: none;
+    border-bottom: 0.5px solid rgba(128, 128, 128, 0.437);
+
+
+}  
+.card:hover{
+}    
+
+.card img{
+    width: auto;
+    border-bottom-left-radius: 7px;
+    border-top-left-radius: 7px;
+    height: 99%;
+    opacity: 90%;
+}
+.card_1 p{
+    padding-left: 2px;
+    font-size: 20px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(47, 47, 47);
+    margin: 0;
+}
+h6{
+    padding-left: 2px;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(111, 111, 111);
+    margin: 0;
+}
+.card_1{
+    border-top-right-radius: 7px;
+    border-bottom-right-radius: 7px;
+    width: 82%;
+    display: flex;
+    justify-content: space-between;
+    padding-left: 10px;
+}
+.card_12{
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    padding-right: 30px;
+}
+.card_12 button{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    border: none;
+    color: white;
+    padding-bottom: 5px;
+    padding-left: 6px;
+    font-size: 27px;
+    background-color: rgb(255, 98, 0);
+}
+.card_12 button:active{
+    font-size: 25px;
+
+}
+.splitter{
+    width: 100%;
+    height: 98%;
+}
+.exercise1_main{
+    height: 100%;
+    width: 102%;
+    background-color: rgb(255, 255, 255)
+}
+.exercise1_1{
+    height: 7%;
+    width: 110%;
+}
+.exercise1_1 button{
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 40px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: rgb(255, 123, 0);
+    box-shadow: 0 2px 5px white;
+    border: none;
+}
+.exercise1_1 button:active{
+    width: 39px;
+    height: 29px;
+}.exercise1_1 button:hover{
+    background-color: rgb(232, 112, 0);
+}
+.exercise1_2{
+    height: 20%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    margin-top: 5px;
+    display: flex;
+    flex-direction: row;
+    padding: 10px;
+    border-bottom: 0.3px solid rgb(205, 205, 205);
+
+}
+
+@keyframes slideIn {
+    0% {
+        transform: translateX(-10%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
+
+.animated-text {
+}
+
+.exercise1_2 img{
+    height: 100%;
+    width: auto;
+    border-top-left-radius: 7px;
+    border-bottom-left-radius: 7px;
+
+}
+.exercise_22 p{
+    margin: 0;
+    color: gray;
+    animation: slideIn 1s ease-out; /* Adjust the duration and timing function as needed */
+
+}
+.exercise_22 h3{
+    margin: 0;
+    font-size: x-large;
+    animation: slideIn 1s ease-out; /* Adjust the duration and timing function as needed */
+
+}
+
+@media (max-width: 580px) {
+.card_11 h6{
+  font-size: 8px;
+}
+.card_11 p{
+    font-size: 12px;
+}
+
+}
+@media (max-width: 1200px) {
+    .card_12 button{
+        height: 30px;
+        width: 30px;
+        font-size: 15px;
+        padding: 0;
+        padding-left: 2px;
+        padding-bottom: 2px;
+
+
+    }
+}
+@media (max-width: 950px) {
+    .card_12 button{
+        height: 25px;
+        width: 25px;
+        font-size: 10px;
+        padding: 0;
+        padding-left: 2px;
+        padding-bottom: 2px;
+
+
+    }
+}

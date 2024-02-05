@@ -1,0 +1,133 @@
+.navbar_main{
+    height: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.navbar_main_2{
+    width: 50%;
+    padding-left: 15px;
+
+}
+.navbar_main_3{
+    margin-right: 60px;   
+    width: 25%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.navbar_main_3 p{
+    width: 40%;
+    margin: 0;
+}
+.fitsile_logo{
+width: 30px;
+height: auto;
+}
+.logo_name{
+    height: 25px;
+}
+.profile_picture{
+    height: 40px;
+    border: 3px solid ;
+    border-left-color: rgb(0, 255, 170);
+    border-right-color: rgb(109, 229, 229);
+    border-top-color: rgb(0, 255, 170);
+    border-bottom-color:  rgb(107, 209, 175);
+    border-radius: 50%;
+}
+.exercise{
+    font-size: 18px;
+    font-weight: 450;
+    margin-right:30px ;
+    margin-left: 30px;
+    color: rgb(123, 123, 123);
+    cursor: pointer;
+}
+.exercise.true{
+    color: rgb(7, 7, 7);
+    font-weight: 600;
+}
+.foodPlan{
+    font-size: 18px;
+    font-weight: 450;
+    margin-right:30px ;
+    color: rgb(123, 123, 123);
+    cursor: pointer;
+}
+.foodPlan.true{
+    color: rgb(7, 7, 7);
+    font-weight: 600;
+}
+.dailyHabbit{
+    font-size: 18px;
+    font-weight: 450;
+    margin-right:30px ;
+    color: rgb(123, 123, 123);
+    cursor: pointer;
+}
+.dailyHabbit.true{
+    color: rgb(7, 7, 7);
+    font-weight: 600;
+}
+.clock_icon{
+    font-size: 20px;
+    margin-right: 5px;
+}
+.navbar_main_3 h5{
+    text-align: left;
+    text-transform: uppercase;
+    color: rgb(82, 82, 82);
+    font-weight: 590;
+    width: 40%;
+    margin: 0;
+    margin-left:2%;
+}
+@media (max-width: 948px) {
+    .navbar_main_3 h5{
+        font-size: 10px;
+    }
+    .profile_picture{
+        height: 20px;
+    }
+    .navbar_main_3 p{
+        font-size: 10px;
+    }
+    .clock_icon{
+        font-size: 10px;
+    }
+    
+.exercise{
+    font-size: 10px;
+}
+
+.foodPlan{
+    font-size: 10px;
+
+}
+.dailyHabbit{
+    font-size: 10px;
+}
+.fitsile_logo{
+    display: none;
+    }
+    .logo_name{
+        height: 20px;
+    }
+}
+@media (max-width: 650px) {
+    .navbar_main_3 h5{
+        font-size: 10px;
+        width: 20%;
+
+    }
+    
+.fitsile_logo{
+    display: none;
+    }
+    .logo_name{
+     display: none;
+    }
+}
